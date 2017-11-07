@@ -1,0 +1,41 @@
+﻿{
+  /* TODO: Put your chatbot identifier and accessKey bellow. */
+  "identifier": "bottestesdkbotcamp",
+  "accessKey": "VXRCMzVxNnpWRkIxMkxONkFya08=",
+  "messageReceivers": [
+    {
+      "type": "PlainTextMessageReceiver",
+      "mediaType": "text/plain",
+      "priority": 101
+    },
+    {
+      "type": "FirstTextMessageReceiver",
+      "mediaType": "text/plain",
+      "state": "default",
+      "priority": 0
+    },
+    {
+      "type": "QRCodeMessageReceiver",
+      "mediaType": "application/vnd.lime.chatstate"
+    },
+    {
+      "type": "TriggerMessageReceiver",
+      "mediaType": "application/vnd.c4d.trigger"
+    },
+    {
+      "type": "MediaLinkMessageReceiver",
+      "mediaType": "application/vnd.lime.media-link"
+    },
+    {
+      "type": "LocationMessageReceiver",
+      "mediaType": "application/vnd.lime.location"
+    }
+  ],
+  "settings": {
+    "key1": "value1",
+    "key2": 2
+  },
+  "settingsType": "Settings",
+  "startupType": "Startup",
+  "serviceProviderType": "ServiceProvider"
+}

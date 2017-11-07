@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "event-bot": {
+      "commandName": "Project",
+      "commandLineArgs": "--pause"
+    }
+  }
+}
